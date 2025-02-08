@@ -1,0 +1,27 @@
+# Ignore Python virtual environments
+venv/
+myenv/
+
+# Ignore environment variables
+.env
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and database files
+*.log
+*.sqlite3
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit and Spotipy cache (if applicable)
+.streamlit/
+.cache/
